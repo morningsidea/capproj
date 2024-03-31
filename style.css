@@ -1,0 +1,181 @@
+.container-head {
+    display: flex;
+    background-color: #B7C9F2;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    border-bottom: 5px solid #9195F6;
+
+}
+.left {
+    width: 50%;
+    text-align: center;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+.right {
+    width: 50%;
+}
+
+.catpic {
+    border-radius: 50%;
+    border: 10px solid white;
+    transform: scale(-1,1);
+    text-align: center;
+}
+
+.head {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.subhead {
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.container-two {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    font-family: Poppins;
+    background-color: #F6C59A;
+    margin: 0;
+    border-bottom: 5px solid #B7C9F2;
+}
+.qualif {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.edcuc1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 50px;
+
+}
+.edcuc2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 50px;
+
+}
+.edupic {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.myproj {
+    background-color: #F6C59A;
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.container-three {
+    display: flex;
+    flex-direction: row;
+    background-color: #F6C59A;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Poppins;
+    padding-bottom: 50px;
+
+}
+
+.photocol3 {
+    border-radius: 50%;
+    border: 5px solid white;
+
+}
+.yourproj {
+    border-radius: 50%;
+    border: 8px solid white;
+}
+
+.container-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    border-top: 5px dotted #B7C9F2;
+}
+.cntactme {
+    background-color: #F6C59A;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    display: block;
+    background-color: #B7C9F2;
+    border-top: 5px solid #9195F6;
+    width: 100%;
+    font-size: 15px;
+    padding-top: 20px;
+}
+a {
+    margin: 10px 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover {
+    color: #9195F6;
+}
+
+.quatext {
+    margin: 10px 10px;
+}
+
+@media (max-width: 1000px){
+    .container-three {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
